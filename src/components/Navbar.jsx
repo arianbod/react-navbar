@@ -25,15 +25,15 @@ const Navbar = () => {
 						<FaBars />
 					</button>
 				</div>
-				{
-					<Menu
-						links={links}
-						showLinksState={showLinksState}
-						linksContainerRef={linksContainerRef}
-						linksRef={linksRef}
-						linkStyles={linkStyles}
-					/>
-				}
+
+				<Menu
+					links={links}
+					showLinksState={showLinksState}
+					linksContainerRef={linksContainerRef}
+					linksRef={linksRef}
+					linkStyles={linkStyles}
+				/>
+
 				<Socials social={social} />
 			</div>
 		</nav>
